@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* 
+* {
+  outline: 1px solid red;
+} */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f85d3a;
+  color: #f0f0f0;
+  min-width: 100%;
+}
+
+.container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr min(1440px, 94%) 1fr;
+  grid-template-rows: 96px auto 64px;
+}
+
+.container > * {
+  grid-column: 2;
+}
+
+.container > .fluid {
+  grid-column: 1 / -1;
+}
