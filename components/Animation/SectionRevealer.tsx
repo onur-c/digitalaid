@@ -19,7 +19,7 @@ const SectionRevealer = ({ children }: { children: React.ReactNode }) => {
         }}
         initial="start"
         animate={mainControls}
-        transition={{ duration: 0.5, delay: 0.25 }}
+        transition={{ duration: 0.75, delay: 0.4 }}
       >
         {children}
       </motion.div>
