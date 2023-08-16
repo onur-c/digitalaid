@@ -26,7 +26,7 @@ const Header = () => {
           href="/"
           className="flex items-center gap-2 rounded-xl p-3 outline outline-3 outline-primaryBg shadow-gray-400 hover:scale-105 transition-all lg:ml-5 ml-2"
         >
-          <div className="md:w-20 md:h-16 w-12 h-9 relative">
+          <div className="w-12 h-9 relative">
             <Image src={Logo} alt="Logo" fill={true} />
           </div>
         </Link>

@@ -51,7 +51,7 @@ const ServicesSection = () => {
                   <p className="text-center">{item.desc}</p>
                   <Link
                     href={item.goToURL}
-                    className="bg-black px-8 py-5 rounded-md hover:scale-105 transition-transform duration-300 outline outline-primaryBg"
+                    className="bg-black/70 px-8 py-5 rounded-md hover:scale-105 transition-transform duration-300 outline outline-primaryBg"
                   >
                     İncele
                   </Link>

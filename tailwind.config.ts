@@ -26,6 +26,7 @@ const config: Config = {
     extend: {
       colors: {
         primaryBg: "#f85d3a",
+        secondaryBG: "#FFBA86",
         headerBg: "#400E32",
       },
       animation: {

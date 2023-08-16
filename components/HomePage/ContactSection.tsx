@@ -10,7 +10,7 @@ const ContactSection = () => {
   return (
     <section
       id="contact"
-      className="mt-24 bg-[#FFBA86] p-5 rounded-sm w-full left-0"
+      className="mt-24 bg-secondaryBG p-5 rounded-sm w-full left-0"
     >
       <div className="flex items-center justify-center mt-8">
         <hr className="w-1/12 border-0 border-t-4 border-headerBg" />
@@ -19,7 +19,7 @@ const ContactSection = () => {
       <div className="mt-8 flex gap-4 w-3/4 m-auto flex-wrap justify-center">
         <Tag
           icon={IoMail}
-          text="info@mailgo.dev"
+          text="digitalaid@digitalaid.io"
           url="mailto:digitalaid@digitalaid.io"
         />
         <Tag icon={BsPhoneFill} text="+90 532 473 9164" url="tel:+4733378901" />
