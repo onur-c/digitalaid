@@ -8,11 +8,11 @@ import SectionRevealer from "@/components/Animation/SectionRevealer";
 const HakkimizdaPageContent = () => {
   return (
     <SectionRevealer>
-      <div className="flex flex-col items-center justify-center h-full gap-12">
+      <div className="flex flex-col items-center gap-12">
         <h2 className="text-3xl md:text-5xl font-extrabold mt-16">
           Hakkımızda
         </h2>
-        <p className="w-2/3 leading-7 text-center">
+        <p className="text-center">
           Şirketimiz bilişim alanında kamu kurum ve kuruluşları ile özel sektöre{" "}
           <span className="font-bold">İş Süreçleri Yönetimi</span> ve{" "}
           <span className="font-bold">Dijital Dönüşüm</span> başta olmak üzere
@@ -26,10 +26,12 @@ const HakkimizdaPageContent = () => {
           <span className="font-bold">PaperWork Uygulama Danışmanlığı</span>{" "}
           hizmetleri vermektedir.{" "}
         </p>
-        <iframe
-          className="w-[354px] h-[216px] md:w-[708px] md:h-[416px] lg:w-[1080px] lg:h-[625px]"
-          src="https://www.youtube.com/embed/jSk_UJZo85o?controls=0?"
-        ></iframe>
+        <div className="w-[354px] h-[216px] md:w-[708px] md:h-[416px] lg:w-[1080px] lg:h-[625px]">
+          <iframe
+            title="Youtube"
+            src="https://www.youtube.com/embed/jSk_UJZo85o?controls=0?"
+          />
+        </div>
         <MissionSection />
         <div className="text-center">
           <h3 className="text-2xl font-bold text-green-400 mb-4">

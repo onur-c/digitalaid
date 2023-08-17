@@ -8,6 +8,8 @@ const ButtonScrollToTop = () => {
   };
   return (
     <button
+      title="Go To Top"
+      type="button"
       className="fixed bottom-10 right-10 rounded-full bg-black text-3xl p-5"
       onClick={scrollToTop}
     >

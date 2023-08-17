@@ -9,11 +9,19 @@ import ReferenceCard from "./ReferenceCard";
 const ReferenceCardList = () => {
   return (
     <div className="flex w-full flex-row gap-5 flex-wrap items-center justify-center p-4 ">
-      <ReferenceCard link="https://estarthealthgroup.com/tr/" url={estart} />
-      <ReferenceCard link="https://tuyap.com.tr/" url={tüyap} />
-      <ReferenceCard link="https://www.paperwork.com.tr/" url={paperworkRef} />
-      <ReferenceCard link="https://akfenren.com.tr/" url={akfenren} />
-      <ReferenceCard link="https://www.akfen.com.tr/" url={akfen} />
+      <ReferenceCard
+        link="https://estarthealthgroup.com/tr/"
+        url={estart}
+        key={1}
+      />
+      <ReferenceCard link="https://tuyap.com.tr/" url={tüyap} key={2} />
+      <ReferenceCard
+        link="https://www.paperwork.com.tr/"
+        url={paperworkRef}
+        key={3}
+      />
+      <ReferenceCard link="https://akfenren.com.tr/" url={akfenren} key={4} />
+      <ReferenceCard link="https://www.akfen.com.tr/" url={akfen} key={5} />
     </div>
   );
 };

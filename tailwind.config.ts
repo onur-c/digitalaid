@@ -72,7 +72,6 @@ const config: Config = {
           },
         },
       },
-
       backgroundSize: {
         "300%": "300%",
       },

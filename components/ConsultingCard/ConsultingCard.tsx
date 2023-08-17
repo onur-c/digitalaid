@@ -49,6 +49,8 @@ const ConsultingCard = ({
           <span className="text-center block text-black pb-2">...</span>
         )}
         <button
+          title="Show-More"
+          type="button"
           className="bg-blue-800 px-5 py-3 text-white w-full mt-2"
           onClick={() => setShowMore(!showMore)}
         >
