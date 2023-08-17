@@ -9,6 +9,7 @@ const SocialLinks = () => {
           href={link.url}
           className="hover:text-headerBg transition-colors"
           key={link.id}
+          target="_blank"
         >
           {link.Icon()}
         </a>

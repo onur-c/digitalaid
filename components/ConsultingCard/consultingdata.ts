@@ -1,6 +1,12 @@
+import bpm from "@/public/bpm.webp";
+import digital from "@/public/digitalTransformation.webp";
+import otomasyon from "@/public/otomasyon.webp";
+import paperwork from "@/public/paperwork.webp";
+import cxEx from "@/public/cxExcellence.webp";
+
 export const consultingData = [
   {
-    url: "https://img1.wsimg.com/isteam/ip/2c01f6b6-0912-412a-9cab-813ed1717ee4/fca59b_45ad3401b95e46ee8f3a88ab56fc5f17_mv2.webp/:/cr=t:2.7%25,l:0%25,w:100%25,h:94.59%25/rs=w:600,h:300,cg:true",
+    url: bpm,
     title: "İş Süreçleri Yönetimi",
     desc: "İş Süreçleri Yönetimi, operasyonel mükemmelliği kolaylaştırmak için bir organizasyonun nasıl çalıştığına dair görünürlük oluşturan bir yönetim yeteneğidir.Bu, iş süreçlerini manuel olarak veya veri analizi yoluyla modelleyerek ve ardından bu bilgileri işbirliği ve iyileştirme için bir temel olarak kullanarak elde edilir.Dijital çağımızda, bir kuruluşun süreçleri kritik bir varlıktır. Diğer kritik varlıklarda olduğu gibi, kuruluşlar da süreçlerden değer elde etmeye adanmış bir dahili yeteneğe sahip olmalıdır. Süreçleri yönetmek için bir BPM disiplini gerekir.",
     list: [
@@ -15,7 +21,7 @@ export const consultingData = [
     ],
   },
   {
-    url: "https://img1.wsimg.com/isteam/ip/2c01f6b6-0912-412a-9cab-813ed1717ee4/pngwing.com.png/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:600,cg:true",
+    url: digital,
     title: "Süreç İyileştirme ve Dijital Dönüşüm",
     desc: "Süreç iyileştirme, performansı artırmak için iş operasyonlarını iyileştirir. Başarılı bir süreç iyileştirme girişimi, gelişmiş kalite, verimlilik ve yenilikçilik faydaları sağlayabilir. Başarılı iyileştirme, mevcut uygulamaların görünürlüğünü oluşturarak, performansı analiz ederek ve yeni bir çalışma biçimini tanımlamak için işbirliği yaparak sağlanır.Süreç İyileştirme metodolojimiz, değer yaratmayı en üst düzeye çıkarmak için strateji odaklı, uçtan uca iyileştirmeler oluşturur.İyi bir süreç iyileştirme ve dijital dönüşüm şu faydaları sağlar;",
 
@@ -29,7 +35,7 @@ export const consultingData = [
     ],
   },
   {
-    url: "https://img1.wsimg.com/isteam/ip/2c01f6b6-0912-412a-9cab-813ed1717ee4/transparent-drawing-line-art-royalty-free-home.png/:/cr=t:4%25,l:0%25,w:100%25,h:92%25/rs=w:600,h:300,cg:true",
+    url: otomasyon,
     title: "Akıllı Otomasyon",
     desc: "Akıllı otomasyon, iş akışlarını kolaylaştırmak ve üretkenliği artırmak için teknolojiyi kullanır. Teknoloji referans modellerimiz, Robotik Proses Otomasyonu da dahil olmak üzere alanlarda en iyi uygulamaları uygular. Robotik Süreç Otomasyonu, düşük kod geliştirme ve iş akışı otomasyonu, müşterilerimiz için somut iş sonuçları sunar.Akıllı otomasyon danışmanlarımız;",
 
@@ -43,7 +49,7 @@ export const consultingData = [
     ],
   },
   {
-    url: "https://img1.wsimg.com/isteam/ip/2c01f6b6-0912-412a-9cab-813ed1717ee4/PaperWorkBPM-logo-2.png/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:600,cg:true",
+    url: paperwork,
     title: "PaperWork Uygulaması",
     desc: "AKILLI DİJİTAL DÖNÜŞÜM Yapay Zeka Destekli Düşük Kodlu Dijital Süreç Platformu Süreçlerinizi ve belgelerinizi yöneterek şirketinizin dijital dönüşüm hedeflerine ulaşmanıza yardımcı olacak tek, akıllı süreç otomasyon platformu. PaperWork BPM özellikleri size tüm iş süreçleri ve görevlerinde görünürlük sağlayacaktır. Gerçek zamanlı öngörüler elde etmek için gelişmiş analitik ve raporlama ile süreç performansını izleyebilir ve kontrol edebilirsiniz.",
 
@@ -54,6 +60,19 @@ export const consultingData = [
       "Raporlama ve Analitik; Karar verme sürecini hızlandırın ve işletme yöneticilerinin işleri hakkında bilgiye dayalı kararlar almalarına yardımcı olun.",
       "SAP Hizmetleri; Kullanıma hazır PaperWork BPM SAP konnektörlerini kullanarak SAP süreçlerini genişletin ve iyileştirin, geliştirme ve işletim maliyetlerini azaltın.",
       "Düşük Kod Geliştirme; Gelişen iş ihtiyaçlarını teknolojinin hızında benimseyin, daha kısa sürede daha fazla süreç ve uygulama geliştirin ve rekabette öne çıkın.",
+    ],
+  },
+  {
+    url: cxEx,
+    title: "CX Excellence",
+    desc: "CX (müşteri deneyimi) mükemmelliği, müşteriniz ister bir alıcı, ister tedarikçi veya iç paydaş olsun, istisnai etkileşimler sağlamaya yönelik kurumsal bir taahhüttür. Bunu, operasyonları müşteri deneyimi stratejileriyle uyumlu hale getirerek ve işletme genelinde müşteri odaklı bir zihniyet sağlayarak başarıyoruz. Müşteri deneyimi mükemmelliği şunları içerir;",
+
+    list: [
+      "CX stratejiniz ve bunu gerçekleştirmede farklı ekiplerin rolü hakkında kuruluş genelinde farkındalık.",
+      "Müşteri yolculuğu modelleri ve temas noktası şemaları gibi araçları kullanarak müşteri etkileşimlerinin tam görünürlüğü.",
+      " Müşteri temas noktaları ve altta yatan operasyonel süreçler arasında net bağlantılar ile müşteriyle yüz yüze olan ve arka ofis ekipleri arasında uyum.",
+      "Müşteri Deneyimi stratejiniz için değerlerine göre eylemleri önceliklendiren müşteri odaklı bir iyileştirme yol haritası.",
+      "Müşteri memnuniyeti puanları da dahil olmak üzere özel, müşteri odaklı metriklerle performans takibi.",
     ],
   },
 ];

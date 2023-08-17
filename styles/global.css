@@ -14,6 +14,7 @@ body {
   background-color: #f85d3a;
   color: #f0f0f0;
   min-width: 100%;
+  min-height: 100vh;
 }
 
 .container {

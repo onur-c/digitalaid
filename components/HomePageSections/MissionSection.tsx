@@ -32,7 +32,8 @@ const MissionSection = () => {
                 <span className="font-bold">Danışmanlık</span> Hizmeti Vermek.
               </li>
               <li>
-                Etkin <span className="font-bold">Kalite Yönetimi'nin</span>{" "}
+                Etkin{" "}
+                <span className="font-bold">Kalite Yönetimi&apos;nin</span>{" "}
                 Sağlanması.
               </li>
               <li>

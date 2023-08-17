@@ -14,12 +14,12 @@ const Tag = ({
   const Icon = icon;
   return (
     <a
-      className="bg-headerBg w-fit h-fit p-4 rounded hover:bg-primaryBg hover:text-headerBg transition-colors duration-300 flex items-center gap-5"
+      className="bg-headerBg w-fit h-fit p-4 rounded hover:bg-white hover:text-headerBg transition-colors duration-300 flex items-center gap-5"
       href={url}
       target="_blank"
     >
       {Icon && (
-        <div className="outline outline-1 p-2 rounded-md">
+        <div className="outline outline-1 p-1 rounded-md text-3xl">
           <Icon />
         </div>
       )}

@@ -1,3 +1,4 @@
+import BlogPageContainer from "@/containers/BlogPageContainer";
 import type { Metadata } from "next";
 import React from "react";
 
@@ -8,7 +9,11 @@ export const metadata: Metadata = {
 };
 
 const BlogPage = () => {
-  return <div>BlogPage</div>;
+  return (
+    <main>
+      <BlogPageContainer />
+    </main>
+  );
 };
 
 export default BlogPage;

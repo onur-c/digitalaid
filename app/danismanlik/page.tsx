@@ -1,7 +1,6 @@
-import ConsultingCard from "@/components/Cards/ConsultingCard";
 import type { Metadata } from "next";
 import React from "react";
-import { consultingData } from "@/components/Cards/consultingdata";
+import DanismanlikPageContainer from "../../containers/DanismanlikPageContainer";
 export const metadata: Metadata = {
   title:
     "Danışmanlık | DigitalAid | Süreç Yönetim, Dijital Dönüşüm, PaperWork Danışmalık",
@@ -9,16 +8,9 @@ export const metadata: Metadata = {
 };
 const DanismanlikPage = () => {
   return (
-    <section>
-      <h2 className="text-center md:text-5xl font-bold text-3xl p-5">
-        Danışmanlıklarımız
-      </h2>
-      <div className="flex flex-wrap items-start justify-center gap-12">
-        {consultingData.map((card) => (
-          <ConsultingCard {...card} />
-        ))}
-      </div>
-    </section>
+    <main>
+      <DanismanlikPageContainer />
+    </main>
   );
 };
 

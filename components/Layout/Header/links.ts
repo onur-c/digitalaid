@@ -6,22 +6,32 @@ export const links = [
   },
   {
     id: 2,
-    title: "Hizmetler",
-    url: "/hizmetler",
+    title: "Danışmanlık",
+    url: "/danismanlik",
   },
   {
     id: 3,
+    title: "Eğitim",
+    url: "/egitim",
+  },
+  {
+    id: 4,
+    title: "Yazılım",
+    url: "/yazilim",
+  },
+  {
+    id: 5,
     title: "Blog",
     url: "/blog",
   },
   {
-    id: 4,
+    id: 6,
     title: "Referanslar",
     url: "/referanslar",
   },
   {
-    id: 5,
+    id: 7,
     title: "İletişim",
-    url: "/iletisim",
+    url: "/#contact",
   },
 ];
