@@ -5,8 +5,8 @@ import { commentData } from "./commentcarddata";
 const CommentCardList = () => {
   return (
     <div className="relative w-fit m-auto flex flex-wrap gap-6 rounded items-center justify-center  p-5">
-      {commentData.map((comment) => (
-        <CommentCard {...comment} />
+      {commentData.map((comment, idx) => (
+        <CommentCard {...comment} key={idx} />
       ))}
     </div>
   );
