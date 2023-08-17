@@ -35,29 +35,30 @@ const ServicesSection = () => {
           Hizmetlerimiz
         </h1>
         <div className="flex relative w-full left-0 flex-wrap gap-5">
-          {data.map((item) => (
-            <>
-              <div className="w-[400px] m-auto relative h-[400px] items-center justify-center rounded-md  overflow-hidden ">
-                <Image
-                  src={item.imageURL}
-                  alt={item.title}
-                  fill={true}
-                  className="object-cover -z-10 brightness-[0.3]"
-                />
-                <div className="flex gap-4 flex-col items-center justify-center h-full">
-                  <h2 className="text-gray-50 text-center text-3xl font-extrabold drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)]">
-                    {item.title}
-                  </h2>
-                  <p className="text-center">{item.desc}</p>
-                  <Link
-                    href={item.goToURL}
-                    className="bg-black/70 px-8 py-5 rounded-md hover:scale-105 transition-transform duration-300 outline outline-primaryBg"
-                  >
-                    İncele
-                  </Link>
-                </div>
+          {data.map((item, idx) => (
+            <div
+              key={idx}
+              className="w-[400px] m-auto relative h-[400px] items-center justify-center rounded-md  overflow-hidden "
+            >
+              <Image
+                src={item.imageURL}
+                alt={item.title}
+                fill={true}
+                className="object-cover -z-10 brightness-[0.3]"
+              />
+              <div className="flex gap-4 flex-col items-center justify-center h-full">
+                <h2 className="text-gray-50 text-center text-3xl font-extrabold drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)]">
+                  {item.title}
+                </h2>
+                <p className="text-center">{item.desc}</p>
+                <Link
+                  href={item.goToURL}
+                  className="bg-black/70 px-8 py-5 rounded-md hover:scale-105 transition-transform duration-300 outline outline-primaryBg"
+                >
+                  İncele
+                </Link>
               </div>
-            </>
+            </div>
           ))}
         </div>
       </section>

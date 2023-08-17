@@ -42,7 +42,7 @@ const BlogPageContainer = () => {
             />
           </div>
           <iframe
-            className=" w-[354px] h-[216px] md:w-[708px] md:h-[416px] lg:w-[1080px] lg:h-[625px]"
+            className="w-[354px] h-[216px] md:w-[708px] md:h-[416px] lg:w-[1080px] lg:h-[625px]"
             src="https://www.youtube.com/embed/6IGEkK8bPQA?controls=0?"
           ></iframe>
           <p className="leading-5">

@@ -5,9 +5,11 @@ import Logo from "@/public/logo.webp";
 import Link from "next/link";
 import { links } from "./links";
 import BurgerMenu from "@/components/Layout/Header/BurgerMenu/BurgerMenu";
+import { usePathname } from "next/navigation";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
+  const currentRoute = usePathname();
 
   const handleBurgerMenu = () => {
     setIsOpen(!isOpen);
@@ -30,15 +32,21 @@ const Header = () => {
             <Image src={Logo} alt="Logo" fill={true} />
           </div>
         </Link>
-        {/* LINKS IN HEADER hide when view<768px(md)*/}
+        {/* LINKS IN HEADER - hide when view<768px(md)*/}
         {links.map((link) => (
           <Link href={link.url} key={link.id}>
-            <p className="text-[10px] md:text-lg md:block hidden font-light drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)]">
+            <p
+              className={
+                currentRoute === link.url
+                  ? "text-[10px] border-b-4 border-solid  md:text-lg md:block hidden font-light drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)] transition-all"
+                  : "text-[10px] md:text-lg md:block hidden font-light drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)] transition-all"
+              }
+            >
               {link.title}
             </p>
           </Link>
         ))}
-        {/* BURGER MENU when view<768px(md) */}
+        {/* BURGER MENU - when view<768px(md) */}
         <BurgerMenu isOpen={isOpen} handleBurgerMenu={handleBurgerMenu} />
       </div>
     </header>

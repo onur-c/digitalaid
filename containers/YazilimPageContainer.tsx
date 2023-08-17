@@ -16,7 +16,7 @@ const YazilimPageContent = () => {
         &quot;Dijital dönüşümde kontrolü ele alın ve değer sunun&quot;
       </h4>
       <div className="w-3/4 m-auto">
-        <p className="mb-4 leading-5">
+        <p className="p-4 leading-5">
           -Yapay Zeka Destekli Düşük Kodlu Dijital Süreç Platformu süreçlerinizi
           ve belgelerinizi yöneterek şirketinizin dijital dönüşüm hedeflerine
           ulaşmanıza yardımcı olacak tek, akıllı süreç otomasyon platformu.
