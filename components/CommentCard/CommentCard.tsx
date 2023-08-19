@@ -17,14 +17,14 @@ const CommentCard = ({
   date: string;
 }) => {
   return (
-    <div className="w-[280px] h-[350px] rounded shadow-lg shadow-dark p-5 text-dark bg-light/70 flex gap-2 flex-col items-center justify-around">
+    <div className="w-[280px] h-[350px] rounded shadow-lg shadow-secondary p-5 text-light  flex gap-2 flex-col items-center justify-around">
       <Image src={img} alt="Comment" />
-      <p className="bg-black text-white p-2 rounded">{rating}/5</p>
-      <div className="mr-auto text-black/30">
+      <p className="bg-secondary text-light p-2 rounded">{rating}/5</p>
+      <div className="mr-auto text-secondary">
         <FaQuoteLeft />
       </div>
       <p className="text-center text-sm italic">{comment}</p>
-      <div className="ml-auto text-black/30">
+      <div className="ml-auto text-secondary">
         <FaQuoteRight />
       </div>
       <p>

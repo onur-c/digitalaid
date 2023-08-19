@@ -12,7 +12,7 @@ const HeroSection = () => {
           <span className="lg:text-9xl">Dijital Dönüşümle</span>
           <br /> Yüksek Performanslı Süreçler
         </h1>
-        <h3 className="mt-6 text-center">
+        <h3 className="mt-6 text-center text-dark">
           Başarılı bir{" "}
           <span className="font-bold text-lg">Dijital Dönüşüm</span>
           &nbsp; sağlayan{" "}

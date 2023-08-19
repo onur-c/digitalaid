@@ -44,7 +44,7 @@ const Header = () => {
             <p
               className={
                 currentRoute === link.url
-                  ? "hover:opacity-90 text-[10px] bg-gray text-primary rounded p-3  md:text-lg md:block hidden font-light drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)] transition-all"
+                  ? "hover:opacity-90 text-[10px] bg-secondary text-light rounded p-3  md:text-lg md:block hidden font-light drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)] transition-all"
                   : "hover:opacity-90 text-[10px]  bg-dark text-light rounded p-2 md:text-lg md:block hidden font-light drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)] transition-all"
               }
             >
@@ -56,7 +56,7 @@ const Header = () => {
           onClick={handleDropdown}
           className={
             isDropdown
-              ? " cursor-pointer text-[10px] bg-dark/50 text-primary rounded p-3  md:text-lg md:block hidden font-light drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)] transition-all"
+              ? " cursor-pointer text-[10px] bg-secondary text-light rounded p-3  md:text-lg md:block hidden font-light drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)] transition-all"
               : " cursor-pointer text-[10px]  bg-dark text-light rounded p-2 md:text-lg md:block hidden font-light drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)] transition-all"
           }
         >
@@ -75,7 +75,7 @@ const Header = () => {
                 <p
                   className={
                     currentRoute === link.url
-                      ? "hover:opacity-90 text-[10px] bg-gray text-primary rounded p-3  md:text-lg md:block hidden font-light drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)] transition-all"
+                      ? "hover:opacity-90 text-[10px] bg-secondary text-light rounded p-3  md:text-lg md:block hidden font-light drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)] transition-all"
                       : "hover:opacity-90 text-[10px]  bg-dark text-light rounded p-2 md:text-lg md:block hidden font-light drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)] transition-all"
                   }
                 >

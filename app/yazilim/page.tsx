@@ -10,7 +10,6 @@ export const metadata: Metadata = {
 const YazilimPage = () => {
   return (
     <main>
-      <h2 className="text-4xl font-bold text-center mt-6">Yazılım</h2>
       <YazilimPageContainer />
     </main>
   );

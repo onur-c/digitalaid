@@ -5,7 +5,7 @@ import React from "react";
 
 const BlogPageContainer = () => {
   return (
-    <div className="relative h-full flex flex-col">
+    <div className="relative h-full flex flex-col text-light">
       <h2 className="md:text-5xl text-3xl font-bold text-center mt-6 mb-3">
         Blog
       </h2>
@@ -47,7 +47,7 @@ const BlogPageContainer = () => {
           ></iframe>
         </div>
 
-        <p className="leading-5">
+        <p className="leading-5 text-light">
           DigitalAid' den yepyeni bir video serisi! Kahveleri hazırlayın.
           DigitalAid olarak "Bi' Kahve Molasında Dijital Dönüşüm Serisi" çok
           yakında başlatıyoruz. Her ay farklı süreç ve konular sizleri bekliyor

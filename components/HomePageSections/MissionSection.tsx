@@ -12,7 +12,7 @@ const MissionSection = () => {
     <SectionRevealer>
       <section className="mt-12">
         <div className="flex gap-5 justify-center items-center flex-wrap text-light">
-          <div className="flex flex-col items-center gap-4 w-96 bg-gradient-to-br from-gray to-primary/30 shadow-lg rounded-xl py-20 ">
+          <div className="flex flex-col items-center gap-4 w-96 bg-gradient-to-br from-gray to-secondary/30 shadow-lg rounded-xl py-20 ">
             <div className="text-8xl ">
               <GoGoal />
             </div>
@@ -42,7 +42,7 @@ const MissionSection = () => {
               </li>
             </ul>
           </div>
-          <div className=" flex flex-col items-center gap-4 w-96 bg-gradient-to-b from-gray to-primary/50 shadow-lg rounded-xl py-20">
+          <div className=" flex flex-col items-center gap-4 w-96 bg-gradient-to-b from-gray to-secondary shadow-lg rounded-xl py-20">
             <div className="text-8xl ">
               <FaEye />
             </div>
@@ -75,7 +75,7 @@ const MissionSection = () => {
               </li>
             </ul>
           </div>
-          <div className=" flex flex-col items-center gap-4 w-96 bg-gradient-to-bl from-gray to-primary/30 shadow-lg rounded-xl py-20 ">
+          <div className=" flex flex-col items-center gap-4 w-96 bg-gradient-to-bl from-gray to-secondary/30 shadow-lg rounded-xl py-20 ">
             <div className="text-8xl ">
               <RiHandHeartLine />
             </div>

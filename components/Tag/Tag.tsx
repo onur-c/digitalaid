@@ -14,7 +14,7 @@ const Tag = ({
   const Icon = icon;
   return (
     <a
-      className="bg-dark text-light w-fit h-fit p-4 rounded border border-dark border-solid hover:bg-primary hover:text-dark hover:border hover:border-solid hover:border-dark  transition-colors duration-300 flex items-center gap-5"
+      className="bg-dark text-light w-fit h-fit p-4 rounded border border-dark border-solid hover:bg-secondary hover:text-dark hover:border hover:border-solid hover:border-dark  transition-colors duration-300 flex items-center gap-5"
       href={url}
       target="_blank"
     >

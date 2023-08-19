@@ -25,10 +25,11 @@ const config: Config = {
     },
     extend: {
       colors: {
-        primary:"#FFF6E0",
-        dark: "#272829",
-        gray: "#61677A",
-        light: "#D8D9DA",
+        primary: "#735F32",
+        secondary: "#C69749",
+        dark: "#000000",
+        gray: "#282A3A",
+        light: "#fff",
       },
       animation: {
         "gradient-x": "gradient-x 5s ease infinite",

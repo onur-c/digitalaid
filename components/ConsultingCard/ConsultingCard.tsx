@@ -19,7 +19,7 @@ const ConsultingCard = ({
   const [showMore, setShowMore] = useState(true);
 
   return (
-    <div className="h-fit w-[400px] flex flex-col gap-4 bg-gray text-light p-5 rounded">
+    <div className="h-fit w-[400px] flex flex-col gap-4 bg-secondary text-light p-5 rounded shadow-lg shadow-dark/50">
       <SectionRevealer>
         <div className="h-56 relative overflow-hidden">
           <Image src={url} alt="" fill className="object-contain rounded-sm" />

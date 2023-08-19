@@ -4,7 +4,7 @@ import React from "react";
 const DanismanlikPageContent = () => {
   return (
     <>
-      <h2 className="text-center md:text-5xl font-bold text-3xl p-5">
+      <h2 className="text-center text-light md:text-5xl font-bold text-3xl p-5">
         Danışmanlıklarımız
       </h2>
       <ConsultingCardList />
