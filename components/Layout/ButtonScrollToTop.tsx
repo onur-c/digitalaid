@@ -10,7 +10,7 @@ const ButtonScrollToTop = () => {
     <button
       title="Go To Top"
       type="button"
-      className="fixed bottom-10 text-light right-10 rounded-full bg-dark text-3xl p-5"
+      className="fixed bottom-10 text-dark right-10 rounded-full bg-secondary text-3xl p-5"
       onClick={scrollToTop}
     >
       <MdArrowUpward />

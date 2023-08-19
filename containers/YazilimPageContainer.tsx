@@ -7,19 +7,21 @@ import Paperwork from "@/public/paperwork.webp";
 const YazilimPageContent = () => {
   return (
     <SectionRevealer>
-      <h2 className="text-4xl text-dark font-bold text-center mt-6">Yazılım</h2>
+      <h2 className="text-3xl lg:text-4xl text-light font-bold text-center mt-6">
+        Yazılım
+      </h2>
       <Image src={Paperwork} alt="Paperwork" className="m-auto" />
-      <div className="flex items-center justify-center text-dark">
+      <div className="flex items-center justify-center text-light">
         <hr className="inline-block w-1/12" />
-        <h3 className="text-center text-xl font-bold text-dark">
+        <h3 className="text-center text-xl font-bold text-light">
           PaperWork BPM & ECM
         </h3>
       </div>
-      <h4 className="text-center italic mb-4 text-dark">
+      <h4 className="text-center italic mb-4 text-light">
         &quot;Dijital dönüşümde kontrolü ele alın ve değer sunun&quot;
       </h4>
       <div className="w-3/4 m-auto">
-        <p className="p-4 leading-5 text-dark">
+        <p className="p-4 leading-5 text-light">
           -Yapay Zeka Destekli Düşük Kodlu Dijital Süreç Platformu süreçlerinizi
           ve belgelerinizi yöneterek şirketinizin dijital dönüşüm hedeflerine
           ulaşmanıza yardımcı olacak tek, akıllı süreç otomasyon platformu.
@@ -29,7 +31,7 @@ const YazilimPageContent = () => {
           gelişmiş analitik ve raporlama ile süreç performansını izleyebilir ve
           kontrol edebilirsiniz.
         </p>
-        <ul className="list-disc list-inside space-y-5 text-dark">
+        <ul className="list-disc list-inside space-y-5 text-light">
           <li>
             <span className="font-bold">Akıllı Elektronik Formlar</span>;
             Verileri yakalamak ve işlemek için herhangi bir akıllı cihazda

@@ -10,7 +10,7 @@ const ContactSection = () => {
   return (
     <section
       id="contact"
-      className="mt-24 bg-gradient-to-b from-primary to-secondary shadow-2xl  p-5 rounded-sm w-full left-0"
+      className="mt-24 bg-gradient-to-b from-primary to-secondary shadow-2xl  p-5 rounded-sm w-full left-0 mb-6"
     >
       <div className="flex items-center justify-center mt-8">
         <hr className="w-1/12 border-0 border-t-4 border-dark" />

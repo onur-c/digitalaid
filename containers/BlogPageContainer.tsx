@@ -5,7 +5,7 @@ import React from "react";
 
 const BlogPageContainer = () => {
   return (
-    <div className="relative h-full flex flex-col text-light">
+    <div className="relative h-full flex gap-8 flex-col text-light">
       <h2 className="md:text-5xl text-3xl font-bold text-center mt-6 mb-3">
         Blog
       </h2>

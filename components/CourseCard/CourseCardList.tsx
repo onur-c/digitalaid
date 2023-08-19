@@ -4,7 +4,7 @@ import { courseData } from "./coursedata";
 
 const CourseCardList = () => {
   return (
-    <div className="flex flex-wrap gap-8 items-center justify-center">
+    <div className="flex flex-wrap gap-8 items-center mb-5 justify-center">
       {courseData.map((course, idx) => (
         <CourseCard {...course} key={idx} />
       ))}

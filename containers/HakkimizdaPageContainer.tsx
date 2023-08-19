@@ -8,7 +8,7 @@ import SectionRevealer from "@/components/Animation/SectionRevealer";
 const HakkimizdaPageContent = () => {
   return (
     <SectionRevealer>
-      <div className="flex text-light flex-col items-center gap-12 ">
+      <div className="flex text-light flex-col items-center gap-12 mb-5">
         <h2 className="text-3xl  md:text-5xl font-extrabold mt-16">
           Hakkımızda
         </h2>
