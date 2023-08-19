@@ -14,6 +14,7 @@ const ReferenceCard = ({
       <a
         href={link}
         className="w-48 h-24 relative opacity-60 hover:opacity-90 transition-all"
+        target="_blank"
       >
         <Image src={url} alt="Referans" fill className="object-contain" />
       </a>

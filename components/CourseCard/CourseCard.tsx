@@ -18,14 +18,14 @@ const CourseCard = ({
       <div className="w-full h-[350px] relative  rounded-lg">
         <Image src={url} alt="" fill objectFit="contain" />
       </div>
-      <div className="w-full h-[345px] bg-white/90 p-2 text-black rounded-sm">
-        <p className="font-extrabold bg-headerBg p-5 relative bottom-14 text-center text-white rounded-lg">
+      <div className="w-full h-[345px] bg-light/90 p-2 text-dark rounded-sm">
+        <p className="font-extrabold bg-dark p-5 relative bottom-14 text-center text-white rounded-lg">
           {title}
         </p>
         <div className="relative bottom-12 flex flex-col">
           {subtitles.map((subtitle, idx) => (
             <div key={idx}>
-              <p className="bg-headerBg text-white p-1 w-fit rounded-sm font-semibold">
+              <p className="bg-dark text-white p-1 w-fit rounded-sm font-semibold">
                 {subtitle}
               </p>
               <p className="p-2">{subtext[idx]}</p>

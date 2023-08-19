@@ -11,12 +11,12 @@ export const socialLinks = [
     Icon: AiFillInstagram,
   },
   {
-    id: 1,
+    id: 2,
     url: "https://www.linkedin.com/company/digitalaid-io ",
     Icon: AiFillLinkedin,
   },
   {
-    id: 1,
+    id: 3,
     url: "https://www.twitter.com/Digitalaid_io ",
     Icon: AiFillTwitterCircle,
   },

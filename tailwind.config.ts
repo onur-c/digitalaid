@@ -25,9 +25,10 @@ const config: Config = {
     },
     extend: {
       colors: {
-        primaryBg: "#f85d3a",
-        secondaryBG: "#FFBA86",
-        headerBg: "#400E32",
+        primary:"#FFF6E0",
+        dark: "#272829",
+        gray: "#61677A",
+        light: "#D8D9DA",
       },
       animation: {
         "gradient-x": "gradient-x 5s ease infinite",

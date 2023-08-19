@@ -1,36 +1,38 @@
 export const links = [
   {
-    id: 1,
+    id: 0,
     title: "Hakkımızda",
     url: "/hakkimizda",
   },
+  
   {
-    id: 2,
-    title: "Danışmanlık",
-    url: "/danismanlik",
-  },
-  {
-    id: 3,
-    title: "Eğitim",
-    url: "/egitim",
-  },
-  {
-    id: 4,
-    title: "Yazılım",
-    url: "/yazilim",
-  },
-  {
-    id: 5,
+    id: 1,
     title: "Blog",
     url: "/blog",
   },
   {
-    id: 6,
+    id: 2,
     title: "Referanslar",
     url: "/referanslar",
   },
+ 
   {
-    id: 7,
+    id: 3,
+    title: "Danışmanlık",
+    url: "/danismanlik",
+  },
+  {
+    id: 4,
+    title: "Eğitim",
+    url: "/egitim",
+  },
+  {
+    id: 5,
+    title: "Yazılım",
+    url: "/yazilim",
+  },
+  {
+    id: 6,
     title: "İletişim",
     url: "/#contact",
   },

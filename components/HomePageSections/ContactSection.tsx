@@ -10,11 +10,11 @@ const ContactSection = () => {
   return (
     <section
       id="contact"
-      className="mt-24 bg-secondaryBG p-5 rounded-sm w-full left-0"
+      className="mt-24 bg-gradient-to-b from-primary to-primary/10 shadow-lg  p-5 rounded-sm w-full left-0"
     >
       <div className="flex items-center justify-center mt-8">
-        <hr className="w-1/12 border-0 border-t-4 border-headerBg" />
-        <h2 className=" text-headerBg text-3xl font-bold">Bize Ulaşın</h2>
+        <hr className="w-1/12 border-0 border-t-4 border-dark" />
+        <h2 className=" text-dark text-3xl font-bold">Bize Ulaşın</h2>
       </div>
       <div className="mt-8 flex gap-4 w-3/4 m-auto flex-wrap justify-center">
         <Tag

@@ -11,7 +11,7 @@ const SectionRevealer = ({ children }: { children: React.ReactNode }) => {
     }
   }, [isInView]);
   return (
-    <div ref={ref} className="">
+    <div ref={ref} >
       <motion.div
         variants={{
           start: { opacity: 0, y: 50 },

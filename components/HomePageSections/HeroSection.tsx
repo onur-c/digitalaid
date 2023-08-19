@@ -6,7 +6,7 @@ const HeroSection = () => {
   return (
     <SectionRevealer>
       <section>
-        <h1 className="m-auto lg:text-8xl mt-16  font-extrabold text-transparent text-5xl bg-clip-text bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-gray-300 via-fuchsia-600 to-orange-600 text-center drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)]">
+        <h1 className="m-auto lg:text-8xl mt-16  font-extrabold  text-5xl text-dark text-center drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)]">
           <span className="lg:text-9xl">Süreç Yönetim</span>
           <br /> ve <br />{" "}
           <span className="lg:text-9xl">Dijital Dönüşümle</span>

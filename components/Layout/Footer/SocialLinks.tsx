@@ -7,7 +7,7 @@ const SocialLinks = () => {
       {socialLinks.map((link) => (
         <a
           href={link.url}
-          className="hover:text-headerBg transition-colors"
+          className="hover:text-gray transition-colors"
           key={link.id}
           target="_blank"
         >
