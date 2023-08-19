@@ -11,20 +11,20 @@ const MissionSection = () => {
   return (
     <SectionRevealer>
       <section className="mt-12">
-        <div className="flex gap-5 justify-center items-center flex-wrap text-slate-200">
-          <div className="flex flex-col items-center gap-4 w-96 bg-[#00c76a71] rounded-xl py-20 ">
+        <div className="flex gap-5 justify-center items-center flex-wrap text-light">
+          <div className="flex flex-col items-center gap-4 w-96 bg-gradient-to-br from-gray to-primary/30 shadow-lg rounded-xl py-20 ">
             <div className="text-8xl ">
               <GoGoal />
             </div>
             <h3 className="text-3xl drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)]">
               Misyon
             </h3>
-            <p className="w-3/4 leading-6 ">
+            <p className="w-3/4 leading-6 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)]">
               Uzman danışmanlarımız ile müşterilerimizin süreçlerini sürekli
               ölçerek ve iyileştirerek çevik yönetilen bir şirket olmalarına
               yardımcı olmak. Bu kapsamda;{" "}
             </p>
-            <ul className="list-disc list-inside leading-5">
+            <ul className="list-disc list-inside leading-5 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)]">
               <li>
                 <span className="font-bold">Eğitim</span> Hizmeti Vermek.
               </li>
@@ -42,18 +42,18 @@ const MissionSection = () => {
               </li>
             </ul>
           </div>
-          <div className=" flex flex-col items-center gap-4 w-96 bg-[#007bc7c4] rounded-xl py-20">
+          <div className=" flex flex-col items-center gap-4 w-96 bg-gradient-to-b from-gray to-primary/50 shadow-lg rounded-xl py-20">
             <div className="text-8xl ">
               <FaEye />
             </div>
             <h3 className="text-3xl drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)]">
               Vizyon
             </h3>
-            <p className="w-3/4 leading-6">
+            <p className="w-3/4 leading-6 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)]">
               Yeni nesil dijital işletmeye giden yolculuğu sağlamada lider
               olmak.
             </p>
-            <ul className="list-disc list-inside  w-4/5 leading-5">
+            <ul className="list-disc list-inside  w-4/5 leading-5 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)]">
               <li>
                 <span className="font-bold">Yenilikçi</span> yaklaşımlarla
                 müşterilerimizin tercih ettiği firma olmak.
@@ -75,15 +75,17 @@ const MissionSection = () => {
               </li>
             </ul>
           </div>
-          <div className=" flex flex-col items-center gap-4 w-96 bg-[#c700388d] rounded-xl py-20 ">
+          <div className=" flex flex-col items-center gap-4 w-96 bg-gradient-to-bl from-gray to-primary/30 shadow-lg rounded-xl py-20 ">
             <div className="text-8xl ">
               <RiHandHeartLine />
             </div>
             <h3 className="text-3xl drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)]">
               Değerlerimiz
             </h3>
-            <p className="w-3/4 leading-6">DigitalAid olarak;</p>{" "}
-            <ul className="list-disc list-inside w-4/5 leading-5">
+            <p className="w-3/4 leading-6 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)]">
+              DigitalAid olarak;
+            </p>{" "}
+            <ul className="list-disc list-inside w-4/5 leading-5 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)]">
               <li>
                 <span className="font-bold">Etik</span> Değerlere bağlıyız.
               </li>

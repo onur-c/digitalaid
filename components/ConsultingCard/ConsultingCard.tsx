@@ -19,12 +19,12 @@ const ConsultingCard = ({
   const [showMore, setShowMore] = useState(true);
 
   return (
-    <div className="h-fit w-[400px] flex flex-col gap-4 bg-amber-100 p-5 rounded">
+    <div className="h-fit w-[400px] flex flex-col gap-4 bg-gray text-light p-5 rounded">
       <SectionRevealer>
         <div className="h-56 relative overflow-hidden">
           <Image src={url} alt="" fill className="object-contain rounded-sm" />
         </div>
-        <h3 className="w-fit relative bottom-8 bg-blue-800 p-5 rounded-sm">
+        <h3 className="w-fit relative bottom-8 bg-dark p-5 rounded-sm">
           {title}
         </h3>
         <div
@@ -34,9 +34,9 @@ const ConsultingCard = ({
               : "h-fit transition-all"
           }
         >
-          <p className="text-black leading-6">{desc}</p>
+          <p className="leading-6">{desc}</p>
           {list && (
-            <ul className="list-disc list-inside text-black">
+            <ul className="list-disc list-inside">
               {list.map((item, idx) => (
                 <li key={idx} className="leading-5">
                   {item}
@@ -46,12 +46,12 @@ const ConsultingCard = ({
           )}
         </div>
         {showMore && (
-          <span className="text-center block text-black pb-2">...</span>
+          <span className="text-center block text-light pb-2">...</span>
         )}
         <button
           title="Show-More"
           type="button"
-          className="bg-blue-800 px-5 py-3 text-white w-full mt-2"
+          className="bg-dark px-5 py-3 text-white w-full mt-2"
           onClick={() => setShowMore(!showMore)}
         >
           {showMore ? (

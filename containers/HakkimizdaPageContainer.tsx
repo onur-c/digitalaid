@@ -8,7 +8,7 @@ import SectionRevealer from "@/components/Animation/SectionRevealer";
 const HakkimizdaPageContent = () => {
   return (
     <SectionRevealer>
-      <div className="flex flex-col items-center gap-12">
+      <div className="flex flex-col items-center gap-12 ">
         <h2 className="text-3xl md:text-5xl font-extrabold mt-16">
           Hakkımızda
         </h2>
@@ -26,23 +26,24 @@ const HakkimizdaPageContent = () => {
           <span className="font-bold">PaperWork Uygulama Danışmanlığı</span>{" "}
           hizmetleri vermektedir.{" "}
         </p>
-        <div className="w-[354px] h-[216px] md:w-[708px] md:h-[416px] lg:w-[1080px] lg:h-[625px]">
-          <iframe
-            title="Youtube"
-            src="https://www.youtube.com/embed/jSk_UJZo85o?controls=0?"
-          />
-        </div>
+        <iframe
+          className="  w-[354px] h-[216px] md:w-[708px] md:h-[416px] lg:w-[1080px] lg:h-[625px]"
+          title="Youtube"
+          src="https://www.youtube.com/embed/jSk_UJZo85o?controls=0?"
+        />
+
         <MissionSection />
-        <div className="text-center">
+        <div className="text-center flex flex-col gap-5">
           <h3 className="text-2xl font-bold text-green-400 mb-4">
             Sürdürülebilirlik
           </h3>
           <p className="leading-5 mb-4 w-4/5 m-auto">
             DigitalAid olarak tamamladığımız Dijital Dönüşüm projeleriyle kağıt
             ve kaynak israfını önleyerek sürdürülebilirliğe katkı sağlıyoruz.
-            &quot;Çevreye Duyarlı Teknoloji Üretimi&quot; vizyonumuzu
-            müşterilerimiz ve çözüm ortaklarımızla paylaşmaktan mutluluk
-            duyuyoruz.
+            &quot;
+            <span className="font-bold">Çevreye Duyarlı Teknoloji Üretimi</span>
+            &quot; vizyonumuzu müşterilerimiz ve çözüm ortaklarımızla
+            paylaşmaktan mutluluk duyuyoruz.
           </p>
           <Image
             src={Sustainability}

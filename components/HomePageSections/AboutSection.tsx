@@ -6,8 +6,8 @@ const AboutSection = () => {
     <SectionRevealer>
       <section>
         <div
-          className="text-slate-700 bg-gradient-to-r from-primaryBg to-primaryBg via-red-300 animate-gradient-xy  left-0 mt-24 mb-16
-           flex flex-col gap-5 py-14 items-center rounded-lg border-r-8 border-b-8 border-solid border-slate-600"
+          className="text-dark bg-gradient-to-br from-light to-primary  left-0 mt-24 mb-16
+           flex flex-col gap-5 py-14 items-center rounded-lg border-r-8 border-b-8 border-solid border-gray"
         >
           <h2 className="lg:text-5xl text-2xl font-bold">Hakkımızda</h2>
           <h3 className="text-2xl">Biz Kimiz?</h3>
